@@ -2,7 +2,7 @@
 % Please edit documentation in R/indicateurs.R
 \name{comparer_pays}
 \alias{comparer_pays}
-\title{Comparer deux pays sur une sélection d'indicateurs}
+\title{Comparer deux pays sur une selection d'indicateurs}
 \usage{
 comparer_pays(
   donnees,
@@ -18,15 +18,15 @@ comparer_pays(
 
 \item{pays_b}{Nom du second pays.}
 
-\item{indicateurs}{Vecteur de noms de colonnes à comparer. Par défaut :
-PIB, population, espérance de vie, émissions CO2.}
+\item{indicateurs}{Vecteur de noms de colonnes a comparer. Par defaut :
+PIB, population, esperance de vie, emissions CO2.}
 }
 \value{
 Un data.frame avec les deux pays en lignes et les indicateurs en
 colonnes.
 }
 \description{
-Comparer deux pays sur une sélection d'indicateurs
+Comparer deux pays sur une selection d'indicateurs
 }
 \examples{
 comparer_pays(world_data, "France", "Germany")

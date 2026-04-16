@@ -11,7 +11,7 @@ calculer_pib_par_hab(donnees)
 \code{population}.}
 }
 \value{
-Le data.frame enrichi d'une colonne \code{gdp_per_capita}.
+Le data.frame enrichi d une colonne \code{gdp_per_capita}.
 }
 \description{
 Ajoute une colonne \code{gdp_per_capita} au data.frame.

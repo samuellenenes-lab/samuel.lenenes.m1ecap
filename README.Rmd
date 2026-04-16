@@ -1,0 +1,65 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# worlddata
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+## Description
+
+Package R pour analyser les indicateurs mondiaux de 2023.
+
+## Installation
+
+```r
+devtools::install_github("samuellenenes-lab/worlddata")
+```
+
+## Utilisation
+
+```{r example, eval=FALSE}
+library(worlddata)
+
+# Charger les donnees
+head(world_data)
+
+# Filtrer par devise
+filtrer_par_devise(world_data, "EUR")
+
+# Top 10 par PIB
+top_pays(world_data, "gdp", n = 10)
+```
+
+## Reponse - Commandes Git
+
+Pour obtenir l'historique demande, executez :
+
+```bash
+git checkout master
+git commit -m "commit A"
+git checkout -b develop
+git commit -m "commit B"
+git commit -m "commit C"
+git log --oneline --graph --all
+```
+
+Cet historique produit :
+
+```
+* commit C (develop)
+* commit B
+* commit A (master)
+```

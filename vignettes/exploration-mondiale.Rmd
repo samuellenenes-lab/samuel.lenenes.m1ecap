@@ -1,0 +1,19 @@
+---
+title: "Explorer les données mondiales avec worlddata"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Explorer les données mondiales avec worlddata}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(samuel.lenenes.m1ecap)
+```

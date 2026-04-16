@@ -6,6 +6,8 @@
 #' @param donnees Un data.frame contenant les colonnes \code{country} et \code{gdp}.
 #' @param titre Titre du graphique (par défaut "Top 15 des pays par PIB").
 #' @return Un objet ggplot2.
+#' @importFrom ggplot2 ggplot aes geom_col scale_fill_viridis_c coord_flip labs theme_minimal theme element_text
+#' @importFrom stats reorder
 #' @export
 #' @examples
 #' visualiser_top_pib(world_data)

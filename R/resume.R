@@ -41,6 +41,7 @@ resume_par_devise <- function(donnees) {
 #' @param decroissant Logique. Si \code{TRUE} (défaut), renvoie les plus
 #'   grandes valeurs.
 #' @return Un data.frame trié contenant \code{n} lignes.
+#' @importFrom utils head
 #' @export
 #' @examples
 #' top_pays(world_data, "gdp", n = 5)
